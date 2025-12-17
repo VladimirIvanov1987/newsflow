@@ -29,9 +29,7 @@ The application allows you to consolidate news from your favorite RSS feeds (tec
 
 ## 📦 Installation
 
-You can install the development version from GitHub: r 📌 install.packages("devtools")devtools::installgithub("VladimirIvanov1987/newsflow")
-
-> **Note:** Replace `your_github_username` with your actual GitHub username.
+You can install the development version from GitHub: r 📌 install.packages("devtools") devtools::installgithub("VladimirIvanov1987/newsflow")
 
 ## 🚀 Usage
 
