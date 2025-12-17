@@ -1,0 +1,27 @@
+Package: newsflow
+Type: Package
+Title: A Personal RSS News Aggregator
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Vladimir", "Ivanov",
+      email = "Vlladdimmir@yandex.ru",
+      role = c("aut", "cre")
+    )
+  )
+Description: Provides a Shiny application to aggregate and read news from 
+    various RSS feeds. Users can add, remove, and filter feeds. 
+    Settings are persisted locally
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    bslib,
+    dplyr,
+    purrr,
+    shiny,
+    tidyRSS
+RoxygenNote: 7.3.3
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
